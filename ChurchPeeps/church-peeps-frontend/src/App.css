@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  min-height: 10vh;
+  background: rgba(46, 48, 58, 0.884);
+  color: white;
+  margin: 2em;
+}
+
+h4, h6 {
+  margin: 16px;
+  justify-items: flex-start;
+  
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  margin: 10px;
+  padding: 10px;
+  justify-self: right;
+  font-family: fantasy;
+}
+
+.user, .pass, .login, .em, .first, .last, .form-group {
+  margin: 5px 0px 0px;
+  padding: 10px 0px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.firstName, .lastName, .email, .username, .password, .form-control {
+  background-color: rgb(231, 231, 221);
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(16, 33, 65);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: beige;
+}
+.date {
+  background-color: rgb(16, 33, 65);
+  color: beige;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0pc 10px 50;
+}
+
+.profileInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+}
+
+
+.profileInfo small {
+  color: black;
+  font-weight: lighter;
+}
+
+body {
+  display: flex;
+   background-image: url("./components/images/nebraska.JPG");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+.home-header {
+  font-family: fantasy;
+}
+
+h1, h6 {
+  text-align: center;
+  width: 100%;
+  color: beige;
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h4 {
+  text-align: center;
+  width: 100%;
+  color: rgb(8, 8, 7);
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.home {
+  color: whitesmoke;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  opacity: 0.6;
+}
+div.transbox div {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #000000;
+}
+
+p.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  opacity: 0.5;
+}
+
+p.transbox p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+div.peeps {
+  color: rgb(13, 13, 14);
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h5 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: space-around;
+  min-height: 5vh;
+  background: rgba(105, 107, 114, 0.884);
+  margin: 1em 2em;
+}
+h2 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* display: flex; */
+  min-height: 5vh;
+  margin: 1em 2em;
+  letter-spacing: 1px;
+}
+
+h3 {
+  background-color: rgb(209, 209, 221);
+  border: 2px solid rgb(16, 33, 65);
+  width: 25%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 5px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+h3:hover {
+  color: rgb(8, 63, 100);
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+input {
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(247, 244, 244);
+}
+
+input::placeholder {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: rgb(20, 20, 20);
+}
+
+input.error {
+  border: 1px solid red;
+} 
+
+ .errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+small {
+  font-size: larger;
+  padding: 5px;
+  margin-top: 1em;
+  color: beige;
+}
+
+.churches {
+  color: black;
+  font-size: 1.5em;
+}
+
+.footer {
+  background: rgba(47, 51, 66, 0.884);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: beige;
+}
